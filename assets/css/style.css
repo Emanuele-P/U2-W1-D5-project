@@ -67,10 +67,12 @@ nav button {
   height: 455px;
   display: flex;
   align-items: center;
+  position: relative;
 }
+
 .hero {
-  width: 70%;
-  margin-inline: auto;
+  width: 40%;
+  margin-left: 15%;
 }
 
 h1 {
@@ -87,6 +89,7 @@ h3 {
   font-size: 24px;
   color: #242424;
   margin-bottom: 50px;
+  max-width: 60%;
 }
 
 .hero button {
@@ -349,4 +352,22 @@ aside h5 {
 .scrolled button {
   color: white;
   background-color: #1a8917;
+}
+
+/* ARTWORK */
+
+.artwork {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.artwork svg path.visible {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.artwork svg path {
+  opacity: 0;
+  transition: opacity 1s linear;
 }

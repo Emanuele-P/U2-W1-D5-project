@@ -27,6 +27,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
+  background-color: #ffc117;
+  transition: background-color 0.3s linear;
 }
 
 nav {
@@ -162,10 +164,12 @@ h5 {
   width: 20px;
   border-radius: 2px;
   margin-bottom: 0;
+  cursor: pointer;
 }
 .info p {
   font-size: 13px;
   font-weight: 500;
+  cursor: pointer;
 }
 .info span {
   color: #6b6b6b;
@@ -177,6 +181,7 @@ h6 {
   font-weight: bold;
   line-height: 20px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .date {
   color: #6b6b6b;
@@ -222,6 +227,7 @@ article {
 }
 .card-article > div:last-of-type > img {
   width: 200px;
+  cursor: pointer;
 }
 .card-article > div {
   margin-right: 20px;
@@ -231,6 +237,7 @@ article {
   font-weight: 700;
   color: #242424;
   margin-block: 0.83em;
+  cursor: pointer;
 }
 .middle p {
   font-size: 16px;
@@ -243,6 +250,9 @@ article {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.tag > div > img {
+  cursor: pointer;
 }
 .tag > div button {
   cursor: pointer;
@@ -260,6 +270,7 @@ article {
 .star {
   width: 20px;
   padding-left: 4px;
+  cursor: pointer;
 }
 
 .card-article {
@@ -327,4 +338,15 @@ aside h5 {
   flex-wrap: wrap;
   justify-content: flex-start;
   column-gap: 2.5rem;
+}
+
+/* EXTRA */
+/* Header */
+
+.scrolled {
+  background-color: white;
+}
+.scrolled button {
+  color: white;
+  background-color: #1a8917;
 }

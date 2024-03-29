@@ -89,7 +89,7 @@ h3 {
   font-size: 24px;
   color: #242424;
   margin-bottom: 50px;
-  max-width: 60%;
+  max-width: 65%;
 }
 
 .hero button {
@@ -265,6 +265,10 @@ article {
   font-size: 13px;
   border-radius: 99em;
   color: #6b6b6b;
+  background-color: #f2f2f2;
+}
+.tag > div button:hover {
+  color: #1a8917;
 }
 .tag {
   display: flex;
@@ -275,6 +279,17 @@ article {
   width: 20px;
   padding-left: 4px;
   cursor: pointer;
+
+  transition: transform 0.1s;
+  transform-origin: center;
+}
+.star:hover {
+  transform: scale(1.5);
+}
+
+.bookmark:hover {
+  background-color: #ffc117;
+  border-radius: 2px;
 }
 
 .card-article {
@@ -313,6 +328,9 @@ aside h5 {
   cursor: pointer;
   margin: 0 8px 10px 0;
 }
+.aside-one button:hover {
+  border: 1px solid #1a8917;
+}
 .aside-one a {
   text-decoration: none;
   color: #1a8917;
@@ -334,6 +352,7 @@ aside h5 {
   font-size: 14px;
   font-weight: 400;
   margin-block: 1em;
+  cursor: pointer;
 }
 .aside-two ul {
   padding-block: 24px;
@@ -365,10 +384,10 @@ aside h5 {
 
 .artwork svg path.visible {
   opacity: 1;
-  transition: opacity 0.5s linear;
+  transition: opacity 3s linear;
 }
 
 .artwork svg path {
   opacity: 0;
-  transition: opacity 0.5s linear;
+  transition: opacity 1s linear;
 }

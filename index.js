@@ -25,4 +25,4 @@ const assignRandom = function () {
   }
 }
 
-setInterval(assignRandom, 1000)
+setInterval(assignRandom, 2000)

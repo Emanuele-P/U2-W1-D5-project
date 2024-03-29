@@ -132,6 +132,7 @@ h5 {
 .top-six {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -364,10 +365,10 @@ aside h5 {
 
 .artwork svg path.visible {
   opacity: 1;
-  transition: opacity 1s linear;
+  transition: opacity 0.5s linear;
 }
 
 .artwork svg path {
   opacity: 0;
-  transition: opacity 1s linear;
+  transition: opacity 0.5s linear;
 }

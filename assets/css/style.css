@@ -32,7 +32,7 @@ header {
 }
 
 nav {
-  width: 70%;
+  width: 80%;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -59,6 +59,7 @@ nav button {
   border-radius: 99em;
   padding: 10px 16px;
   cursor: pointer;
+  font-size: 14px;
 }
 
 /* HERO */
@@ -72,7 +73,7 @@ nav button {
 
 .hero {
   width: 40%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 h1 {
@@ -114,7 +115,7 @@ h3 {
 .trending {
   box-sizing: content-box;
   margin-inline: auto;
-  width: 70%;
+  width: 80%;
   padding-block: 40px;
 }
 .trending-icon,
@@ -139,8 +140,8 @@ h5 {
   display: flex;
   align-items: flex-start;
   margin-bottom: 24px;
-  max-width: 33%;
-  padding-inline: 20px;
+  width: 33%;
+  padding-right: 20px;
 }
 .number {
   width: 40px;
@@ -153,7 +154,7 @@ h5 {
   font-weight: 500;
   letter-spacing: -0.014em;
   position: relative;
-  top: -10px;
+  top: -8px;
 }
 
 .content {
@@ -214,9 +215,9 @@ h6 {
 .middle-wrapper {
   padding-top: 56px;
   margin-inline: auto;
-  width: 70%;
+  width: 80%;
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 /* ARTICLE */
@@ -311,7 +312,8 @@ aside {
 aside h5 {
   font-size: 16px;
   color: #242424;
-  margin-block: 0.83em;
+  margin-top: 2em;
+  margin-bottom: 0.83em;
   font-weight: 500;
 }
 .button-list {
@@ -382,12 +384,10 @@ aside h5 {
   right: 0;
 }
 
-.artwork svg path.visible {
-  opacity: 1;
-  transition: opacity 3s linear;
-}
-
 .artwork svg path {
   opacity: 0;
-  transition: opacity 1s linear;
+}
+
+.artwork svg path.visible {
+  opacity: 1;
 }
